@@ -1,0 +1,199 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #55b3b8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #0f1f23;
+  }
+  
+  #about-me {
+    padding: 40px;
+    background-color: #ecf0f1;
+    text-align: center;
+  }
+  
+  #about-me p {
+    line-height: 1.6;
+  }
+  
+  #resume {
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  #resume div {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #work {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  #work ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #work li {
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  #work h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  #work p {
+    margin: 10px 0;
+  }
+  
+  #work img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  #work img:hover {
+    transform: scale(1.05);
+  }
+  
+  #contact {
+    padding: 40px;
+    background-color: #55b3b8;
+    color: white;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #55b3b8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4d8a97;
+  }
+  
+  #resume ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #resume ul li {
+    background-color: white;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+  }
+  
+  #resume ul li:hover {
+    background-color: #95a5a6;
+  }
+  
+  #about-me div {
+    position: relative;
+  }
+  
+   h1, h2, h3 {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h3{
+    background-color: #4d8a97;
+  }
+
+  .education {
+    background-color: #cfebed;
+  }
+
+  .do {
+    background-color: #cfebed;
+  }
+
+  .soft {
+    background-color: #cfebed;
+  }
+
+  .technical {
+    background-color: #cfebed;
+  }
+
+  .foot {
+    width: 100%;
+    background-color: #55b3b8;
+    border-radius: 20px 20px 0 0;
+    min-height: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.foot p {
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+  
+  

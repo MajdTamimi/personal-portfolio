@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Majd Portfolio</title>
 </head>
 
@@ -11,15 +12,16 @@
   <!-- Header section containing your name and navigation links -->
   <header>
     <h1>Majd Tamimi</h1>
+    <br>
     <nav>
       <a href="#about-me">About me</a>
       <a href="#resume">Resume</a>
       <a href="#work">Work</a>
-      <a href="./contact-me.html">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
   <!-- "About Me" section introducing yourself -->
-  <section id="about-me">
+  <section id="about-me" >
     <div>
       <h2>ABOUT ME</h2>
       <p>Hey! I'm excited to welcome you to my portfolio, I am excited to
@@ -35,10 +37,10 @@
     </div>
   </section>
   <!-- "Resume" section that showcases education and what you do -->
-  <section>
+  <section  class="section">
     <div>
       <h2 id="resume">RESUME</h2>
-      <div>
+      <div class="education">
         <h3>Education</h3>
         <p>Palestine Polytechnic University</p>
         <p>
@@ -48,7 +50,9 @@
         <p> B.S. in Computer System Engineering at Palestine Polytechnic University. (GPA 91.9%)
         </p>
       </div>
-      <div>
+      <br>
+      <br>
+      <div class="do">
         <h3>what I do</h3>
         <ul>
           <li>Web training
@@ -70,7 +74,9 @@
           <li>Design Patterns training in Python with GSG</li>
         </ul>
       </div>
-      <div>
+      <br>
+      <br>
+      <div class="technical">
         <h3>Technical Skills</h3>
         <ul>
           <li>HTML</li>
@@ -81,7 +87,9 @@
           <li>Python</li>
         </ul>
       </div>
-      <div>
+      <br>
+      <br>
+      <div class="soft">
         <h3>Soft Skills</h3>
         <ul>
           <li>Tmie Management</li>
@@ -93,8 +101,9 @@
     </div>
   </section>
   <!-- "Work" section that showcases your projects -->
-  <section id="work">
+  <section id="work"  class="section">
     <h2>WORK</h2>
+    <br>
     <ol>
       <li>
         <h3>Kitchen Tales</h3>
@@ -113,6 +122,26 @@
       </li>
     </ol>
   </section>
+
+  <section id="contact" class="section"></section>
+  <h2>CONTACT ME</h2>
+  <form action="#" method="GET">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br>
+
+    <button type="submit">Submit</button>
+  </form>
+  </section>
+
+  <footer class="foot">
+    <p>&copy Majd Tamimi</p>
+  </footer>
 </body>
 
 </html>
